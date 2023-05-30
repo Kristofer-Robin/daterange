@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Popperjs -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <!-- Tempus Dominus JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@eonasdan/tempus-dominus@6.7.7/dist/js/tempus-dominus.min.js" crossorigin="anonymous"></script>
+
+    <!-- Tempus Dominus Styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@eonasdan/tempus-dominus@6.7.7/dist/css/tempus-dominus.min.css" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.9.0/mdb.min.css">
+</head>
+<body>
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown"
+            aria-expanded="false">
+        Dropdown button
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li>
+            <a class="dropdown-item" href="#">
+                Submenu &raquo;
+            </a>
+            <ul class="dropdown-menu dropdown-submenu">
+                <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                <li>
+                    <a class="dropdown-item" href="#">Submenu item 3 &raquo;</a>
+                    <ul class="dropdown-menu dropdown-submenu">
+                        <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                        <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.9.0/mdb.min.js"></script>
+</body>
+</html>
